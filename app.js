@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 // sudo npm i -g
 // tool -u un -p pw app.js
-}
 var fs = require('fs')
 var program = require('commander')
 var co = require('co')
@@ -23,7 +22,7 @@ program
                 console.log( s )
                 fs.writeFile('export.txt', s, err => {})
             })
-        } else console.log('wrong username o r password')
+        } else console.log('wrong username or password')
      })
   })
   .parse(process.argv)
