@@ -1,0 +1,24 @@
+{
+  "name": "cmdtool",
+  "version": "1.0.0",
+  "description": "command line tool example",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm install -g"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cmdtool"
+  },
+  "author": "Dr. Németh Tamás",
+  "license": "MIT",
+  "bin": {
+    "tool": "./app.js"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.15.1",
+    "fs": "0.0.1-security"
+  }
+}
